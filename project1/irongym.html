@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRON GYM</title>
+</head>
+
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+<style>
+    body {
+        background-image:url('https://cdn.pixabay.com/photo/2018/03/23/11/57/girl-3253532_960_720.jpg');
+
+        font-family: 'Baloo Bhaina 2', cursive;
+        margin: 0px;
+        padding: 0px;
+        
+        color: white;
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        border: 0pzpx solid rgb(0, 0, 0);
+        margin: -18px -6px;
+        width: 11%;
+    }
+
+    .center {
+
+        display: block;
+        width: 69%;
+        margin: -5px auto;
+        border: 0px solid greenyellow;
+
+    }
+
+    .right {
+        width: 17%;
+        position: absolute;
+        right: -23px;
+        top: 122;
+        display: inline-block;
+        border: 0px solid blue;
+        margin: -64px -21px;
+        padding: 0px;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 26px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .left img {
+        width: 175px;
+        filter: invert();
+
+
+    }
+
+    .left div {
+        text-align: center;
+        color: red;
+        font-size: 20px;
+        margin: -35px;
+
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhaina 2', cursive;
+        font-size: 12px;
+        margin: 4px 0px;
+        background-color: black;
+        color: whitesmoke;
+        padding: 11px 25px;
+        border: 2px solid grey;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .container {
+        border: 0px solid white;
+        margin: 71px 78px;
+        padding: 10px 26px;
+        width: 42%;
+        border-radius: 30px;
+    }
+
+    .form input {
+        font-family: 'Baloo Bhaina 2', cursive;
+        font-size: 17px;
+        text-align: center;
+        display: block;
+        width: 322px;
+        padding: 0px;
+        border: 2px solid black;
+        margin: 6px auto;
+        border-radius: 5px;
+    }
+    .form btn{
+        text-align: center;
+        padding: 0px;
+        margin: 0px auto;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container h2{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        margin: auto;
+        width: 59%;
+    }
+    .container button :hover{
+        background-color: grey;
+        color: red;
+    }
+</style>
+
+<body>
+    
+    <header class="header">
+        <div class="left"> <img src="bars.png" alt="">
+            <div class="div">IRON GYM</div>
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn"> Call Us Now</button>
+            <button class="btn"> Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Push Harder Than Yesterday
+            If You Want Different Tommorrow
+        </h1>
+        <h2>Want to see your better self ? Join Now</h2>
+
+        <form action="noaction.php">
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your Name">
+
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="enter your Age">
+
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your Gender">
+ 
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="enter your Locality">
+            <div class="form">
+                <input type="text" name="" placeholder="Email Id">
+            <div class="form">
+                <input type="text" name="" placeholder="Phone number">
+            </div>
+            <div><button class="btn">submit</button></div>
+        </form>
+
+    </div>
+</body>
+
+</html>
